@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAkBA,EAAE;EACA,SAAS,EAfD,GAAG;EAgBX,WAAW,EAnBC,mCAAmC;;AAqBjD,EAAE;EACA,SAAS,EAlBD,GAAG;EAmBX,WAAW,EAvBC,mCAAmC;;AAyBjD,CAAC;EACC,SAAS,EAnBM,GAAG;EAoBlB,WAAW,EA1BI,yBAAyB;;AA4B1C,IAAI;EACF,MAAM,EAAE,CAAC;;AC7BX,KAAK;EACH,MAAM,EAAE,KAAK;EACb,gBAAgB,EDSV,OAAO;ECRb,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EAEtB,QAAE;IACA,UAAU,EAAE,MAAM",
+"sources": ["../../assets/sass/_variables.sass","team.component.sass"],
+"names": [],
+"file": "team.component.css"
+}

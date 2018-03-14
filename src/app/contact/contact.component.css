@@ -1,0 +1,25 @@
+h1 {
+  font-size: 5em;
+  font-family: "Montserrat", Helvetica, sans-serif; }
+
+h2 {
+  font-size: 3em;
+  font-family: "Montserrat", Helvetica, sans-serif; }
+
+p {
+  font-size: 1em;
+  font-family: "Playfair Display", serif; }
+
+body {
+  margin: 0; }
+
+.contact {
+  height: 100vh;
+  background-color: #C5E2A1;
+  color: #39455A;
+  display: flex;
+  flex-direction: column; }
+  .contact h2 {
+    text-align: center; }
+
+/*# sourceMappingURL=contact.component.css.map */

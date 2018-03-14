@@ -1,0 +1,25 @@
+h1 {
+  font-size: 5em;
+  font-family: "Montserrat", Helvetica, sans-serif; }
+
+h2 {
+  font-size: 3em;
+  font-family: "Montserrat", Helvetica, sans-serif; }
+
+p {
+  font-size: 1em;
+  font-family: "Playfair Display", serif; }
+
+body {
+  margin: 0; }
+
+.about {
+  height: 100vh;
+  background-color: #39455A;
+  color: white;
+  display: flex;
+  flex-direction: column; }
+  .about h2 {
+    text-align: center; }
+
+/*# sourceMappingURL=about.component.css.map */
