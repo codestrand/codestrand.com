@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   template: `
     <div class="container">
       <img src="/assets/images/brand/codestrand.svg" class="homepage-logo">
-      <h2> Your software development team</h2>
+      <h2>Software development</h2>
     </div>`,
   styleUrls: ['./hero.component.sass']
 })
