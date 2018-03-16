@@ -21,5 +21,39 @@ body {
   flex-direction: column; }
   .team h2 {
     text-align: center; }
+  .team .team__container {
+    display: flex;
+    margin: 4% auto 0 auto;
+    justify-content: space-between;
+    align-items: center; }
+    .team .team__container h3 {
+      font-family: "Montserrat";
+      font-weight: 400; }
+    .team .team__container .team__image_1 {
+      flex-grow: 1;
+      order: 0;
+      text-align: center; }
+    .team .team__container .team__image_2 {
+      flex-grow: 1;
+      order: 1;
+      text-align: center; }
+    .team .team__container img {
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%; }
+
+@media screen and (min-width: 720px) {
+  .team__container {
+    flex-direction: row;
+    width: 800px; }
+
+  img {
+    max-width: 40%; } }
+@media screen and (max-width: 720px) {
+  .team__container {
+    flex-direction: column; }
+
+  img {
+    max-width: 30%; } }
 
 /*# sourceMappingURL=team.component.css.map */
