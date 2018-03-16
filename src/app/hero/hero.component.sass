@@ -1,16 +1,23 @@
 .container
   display: flex
+  flex-direction: column
+  height: 100vh
+  max-width: 900px
+  margin: auto
+  text-align: center
+  justify-content: center
 
 .homepage-logo
-  max-width: 50%
-  margin-left: -10%
+  max-width: 70%
   order: 0
   align-self: flex-start
+  text-align: center
+  margin: -4% auto 2% auto
 
-h1
+h2
   order: 1
-  max-width: 50%
-  align-self: center
-  padding-left: 1em
   color: #39455A
 
+@media screen and (max-width: 720px)
+  h2
+    font-size: 1.1em
