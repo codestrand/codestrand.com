@@ -6,6 +6,8 @@
   justify-content: flex-start
   align-items: center
   padding: 0 40px 0 40px
+  position: sticky
+  
   a
     max-width: 20%
     align-self: center
@@ -21,3 +23,7 @@
 a
   color: $dark-blue
   text-decoration: none
+
+@media screen and (max-width: 720px)
+  .nav-bar
+    display: none

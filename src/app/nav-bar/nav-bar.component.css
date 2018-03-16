@@ -18,7 +18,8 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 0 40px 0 40px; }
+  padding: 0 40px 0 40px;
+  position: sticky; }
   .nav-bar a {
     max-width: 20%;
     align-self: center;
@@ -35,5 +36,9 @@ body {
 a {
   color: #39455A;
   text-decoration: none; }
+
+@media screen and (max-width: 720px) {
+  .nav-bar {
+    display: none; } }
 
 /*# sourceMappingURL=nav-bar.component.css.map */
