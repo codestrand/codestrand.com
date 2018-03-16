@@ -6,6 +6,32 @@
   color: white
   display: flex
   flex-direction: column
+  width: 100vw
+
 
   h2
     text-align: center
+
+  .about__container
+    display: flex
+    margin-left: auto
+    margin-right: auto
+    flex-wrap: wrap
+
+    .about__item
+      order: 0
+      flex-grow: 1
+
+    .about__image
+      order: 1
+      flex-grow: 2
+
+@media screen and (min-width: 720px)
+  .about__container
+    flex-direction: row
+    width: 800px
+    justify-content: space-around
+
+@media screen and (max-width: 720px)
+  .about__container
+    flex-direction: column
