@@ -1,0 +1,21 @@
+{
+  "name": "codestrands.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "ansible-playbook provision/deploy.yml -i provision/inventory.ini",
+    "ping": "ansible all -m ping -i provision/inventory.ini"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codestrands/codestrands.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codestrands/codestrands.com/issues"
+  },
+  "homepage": "https://github.com/codestrands/codestrands.com#readme"
+}
