@@ -21,5 +21,28 @@ body {
   flex-direction: column; }
   .contact h2 {
     text-align: center; }
+  .contact .contact__container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between; }
+    .contact .contact__container .contact__item {
+      order: 1;
+      flex-grow: 2; }
+    .contact .contact__container .contact__image {
+      order: 0;
+      flex-grow: 1;
+      max-width: 50%; }
+      .contact .contact__container .contact__image img {
+        max-width: 60%; }
+
+@media screen and (min-width: 720px) {
+  .contact__container {
+    flex-direction: row;
+    width: 800px; } }
+@media screen and (max-width: 720px) {
+  .contact__container {
+    flex-direction: column;
+    text-align: center; } }
 
 /*# sourceMappingURL=contact.component.css.map */
