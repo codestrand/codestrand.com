@@ -2,10 +2,15 @@
 
 .contact
   height: 100vh
-  background-color: $lime
-  color: $dark-blue
+  background-color: $footer-bg-color
+  color: $footer-text-color
   display: flex
   flex-direction: column
+
+  a
+    color: $footer-text-color
+    &:hover
+      color: ligthen($footer-text-color, 50);
 
   h2
     text-align: center
@@ -27,12 +32,12 @@
       img
         max-width: 60%
 
-@media screen and (min-width: 720px)
+@media screen and (min-width: $width-sm)
   .contact__container
     flex-direction: row
     width: 800px
 
-@media screen and (max-width: 720px)
+@media screen and (max-width: $width-sm)
   .contact__container
     flex-direction: column
     text-align: center
