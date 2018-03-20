@@ -1,11 +1,31 @@
 @import "./../../assets/sass/variables"
 
-.values
-  height: 100vh
-  background-color: $turquoise
-  color: white
+.values__container
   display: flex
   flex-direction: column
+  max-width: 800px
+  margin: auto auto 10% auto
+  h1
+    color: rgba(197,226,161,0.5)
+    line-height: 88px
+    margin-bottom: -4px
+    margin-left: -52px
 
-  h2
-    text-align: center
+  .values__items
+    max-width: 70%
+    h4
+      line-height: $h4-line-height
+    p
+      font-size: 14px
+      line-height: 20px
+
+  .card
+    display: flex
+    flex-direction: row
+    align-content: center
+    .card__image
+      order: 0
+    .card__text
+      flex-direction: column
+      order: 1
+      margin-left: 10px

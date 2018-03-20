@@ -1,0 +1,44 @@
+@import "./../../assets/sass/variables"
+
+.foundation
+  display: flex
+  flex-direction: column
+  width: 100vw
+  h1
+    color: rgba(197,226,161,0.5)
+    line-height: 88px
+    margin-bottom: -27px
+    margin-right: -52px
+
+  .foundation__container
+    background: url("./../../assets/images/icons/floor.svg") no-repeat
+    background-size: 80%
+    background-position-y: 50%
+    display: flex
+    margin: auto
+    .foundation__item
+      order: 1
+      flex-grow: 1
+    .foundation__image
+
+      order: 0
+      flex-grow: 2
+      img
+        max-width: 70%
+        margin-top: -24px
+
+
+@media screen and (min-width: 720px)
+  .foundation__container
+    flex-direction: row
+    width: 800px
+    justify-content: space-around
+    .foundation__item
+      max-width: 35%
+    .foundation__image
+      max-width: 65%
+
+
+@media screen and (max-width: 720px)
+  .foundation__container
+    flex-direction: column

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="843px" height="659px" viewBox="0 0 843 659" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>floor-team</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-446.000000, -3472.000000)" opacity="0.5">
+        <g id="Section3" transform="translate(151.000000, 2534.000000)" fill="#E2F0D0">
+            <g id="Build" transform="translate(0.000000, 176.560182)">
+                <g id="floor-team" transform="translate(295.000000, 761.000000)">
+                    <g id="Floor" transform="translate(518.819737, 148.197137) scale(-1, 1) translate(-518.819737, -148.197137) translate(194.639474, 0.212752)">
+                        <polygon id="Rectangle-3" points="-0.000147152951 149.069946 269.017225 0.409286542 588.075533 141.972706 324.035881 295.600118"></polygon>
+                        <polygon id="Rectangle-3" points="384.823684 231.14667 521.624968 158.235524 647.960242 205.504513 508.699514 278.630771"></polygon>
+                    </g>
+                    <g id="Stairs" transform="translate(164.442544, 457.308393) scale(-1, 1) translate(-164.442544, -457.308393) translate(0.480702, 255.176968)">
+                        <polygon id="Rectangle-4" points="0 38.3701238 71.513753 0 86.2881051 6.11455842 16.2749091 44.6301001"></polygon>
+                        <polygon id="Rectangle-4" points="15.9719298 63.6036957 87.4856829 25.2335719 102.260035 31.3481303 32.2468389 69.863672"></polygon>
+                        <polygon id="Rectangle-4" points="34.9385965 85.6830711 106.45235 47.3129473 121.226702 53.4275057 51.2135055 91.9430474"></polygon>
+                        <polygon id="Rectangle-4" points="50.9105263 110.916643 122.424279 72.5465192 137.198631 78.6610776 67.1854354 117.176619"></polygon>
+                        <polygon id="Rectangle-4" points="64.3868421 132.996018 135.900595 94.6258946 150.674947 100.740453 80.6617512 139.255995"></polygon>
+                        <polygon id="Rectangle-4" points="80.3587719 158.22959 151.872525 119.859466 166.646877 125.974025 96.633681 164.489567"></polygon>
+                        <polygon id="Rectangle-4" points="99.3254386 180.308966 170.839192 141.938842 185.613544 148.0534 115.600348 186.568942"></polygon>
+                        <polygon id="Rectangle-4" points="115.297368 205.542538 186.811121 167.172414 201.585473 173.286972 131.572277 211.802514"></polygon>
+                        <polygon id="Rectangle-4" points="126.27807 230.77611 197.791823 192.405986 212.566175 198.520544 142.552979 237.036086"></polygon>
+                        <polygon id="Rectangle-4" points="142.25 256.009681 213.763753 217.639558 228.538105 223.754116 158.524909 262.269658"></polygon>
+                        <polygon id="Rectangle-4" points="161.216667 278.089057 232.73042 239.718933 247.504772 245.833491 177.491576 284.349033"></polygon>
+                        <polygon id="Rectangle-4" points="177.188596 303.322629 248.70235 264.952505 263.476702 271.067063 193.463506 309.582605"></polygon>
+                        <polygon id="Rectangle-4" points="190.664912 325.402004 262.178665 287.03188 276.953017 293.146439 206.939821 331.66198"></polygon>
+                        <polygon id="Rectangle-4" points="206.636842 350.635576 278.150595 312.265452 292.924947 318.380011 222.911751 356.895552"></polygon>
+                        <polygon id="Rectangle-4" points="225.603509 372.714951 297.117262 334.344828 311.891614 340.459386 241.878418 378.974928"></polygon>
+                        <polygon id="Rectangle-4" points="241.575439 397.948523 313.089192 359.578399 327.863544 365.692958 257.850348 404.2085"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

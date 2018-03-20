@@ -1,0 +1,29 @@
+@import "./../../assets/sass/variables"
+.footer
+  display: flex
+  flex-direction: row
+  justify-content: space-around
+  background-color: $dark-grey
+  height: 60px
+  .footer__image
+    height: 20px
+    width: 40%
+    margin: auto
+    background: url("./../../assets/images/brand/codestrand-white.svg") no-repeat
+    background-size: 20%
+
+.footer__icons
+    display: flex
+    flex-direction: row
+    margin: auto
+    .contact__social
+      display: flex
+      flex-direction: row
+      justify-content: space-between
+      width: 300px
+    .fa-ul
+      margin-bottom: 32px
+      .fa-li
+        color: white
+        & :hover
+          color: $lime

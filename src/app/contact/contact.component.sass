@@ -1,44 +1,20 @@
 @import "./../../assets/sass/variables"
 
 .contact
-  height: 100vh
-  background-color: $footer-bg-color
-  color: $footer-text-color
   display: flex
   flex-direction: column
-
-  a
-    color: $footer-text-color
-    &:hover
-      color: ligthen($footer-text-color, 50);
-
-  h2
-    text-align: center
-
+  margin: 8% 0 8% 0
   .contact__container
     display: flex
     margin-left: auto
     margin-right: auto
-    justify-content: space-between
-
-    .contact__item
-      order: 1
-      flex-grow: 2
-
-    .contact__image
-      order: 0
-      flex-grow: 1
-      max-width: 50%
-      img
-        max-width: 60%
+    flex-direction: column
 
 @media screen and (min-width: $width-sm)
   .contact__container
-    flex-direction: row
     width: 800px
 
 @media screen and (max-width: $width-sm)
   .contact__container
-    flex-direction: column
     text-align: center
 

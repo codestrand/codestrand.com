@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #4A4A4A;
+  height: 60px; }
+  .footer .footer__image {
+    height: 20px;
+    width: 40%;
+    margin: auto;
+    background: url("./../../assets/images/brand/codestrand-white.svg") no-repeat;
+    background-size: 20%; }
+
+.footer__icons {
+  display: flex;
+  flex-direction: row;
+  margin: auto; }
+  .footer__icons .contact__social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px; }
+  .footer__icons .fa-ul {
+    margin-bottom: 32px; }
+    .footer__icons .fa-ul .fa-li {
+      color: white; }
+      .footer__icons .fa-ul .fa-li :hover {
+        color: #C5E2A1; }
+
+/*# sourceMappingURL=footer.component.css.map */

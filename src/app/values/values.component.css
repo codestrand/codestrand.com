@@ -1,0 +1,29 @@
+.values__container {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: auto auto 10% auto; }
+  .values__container h1 {
+    color: rgba(197, 226, 161, 0.5);
+    line-height: 88px;
+    margin-bottom: -4px;
+    margin-left: -52px; }
+  .values__container .values__items {
+    max-width: 70%; }
+    .values__container .values__items h4 {
+      line-height: 20px; }
+    .values__container .values__items p {
+      font-size: 14px;
+      line-height: 20px; }
+  .values__container .card {
+    display: flex;
+    flex-direction: row;
+    align-content: center; }
+    .values__container .card .card__image {
+      order: 0; }
+    .values__container .card .card__text {
+      flex-direction: column;
+      order: 1;
+      margin-left: 10px; }
+
+/*# sourceMappingURL=values.component.css.map */

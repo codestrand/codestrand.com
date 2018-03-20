@@ -1,0 +1,40 @@
+.about {
+  display: flex;
+  flex-direction: column; }
+  .about h2 {
+    color: #4A4A4A; }
+  .about .about__container {
+    display: flex;
+    margin: auto; }
+    .about .about__container .about__item {
+      order: 1;
+      flex-grow: 1; }
+    .about .about__container .about__image {
+      order: 0;
+      flex-grow: 2; }
+      .about .about__container .about__image img {
+        max-width: 70%;
+        margin-top: -24px; }
+
+.about__breakpoint {
+  display: flex;
+  justify-content: center;
+  margin: 10% auto 10% auto; }
+  .about__breakpoint img {
+    width: 5%;
+    height: 6%; }
+
+@media screen and (min-width: 720px) {
+  .about__container {
+    flex-direction: row;
+    width: 800px;
+    justify-content: space-around; }
+    .about__container .about__item {
+      max-width: 50%; }
+    .about__container .about__image {
+      max-width: 50%; } }
+@media screen and (max-width: 720px) {
+  .about__container {
+    flex-direction: column; } }
+
+/*# sourceMappingURL=about.component.css.map */

@@ -1,36 +1,44 @@
 @import "./../../assets/sass/variables"
 
 .about
-  height: 100vh
-  background-color: $dark-blue
-  color: white
   display: flex
   flex-direction: column
-  width: 100vw
 
 
   h2
-    text-align: center
+    color: $dark-grey
 
   .about__container
     display: flex
-    margin-left: auto
-    margin-right: auto
-    flex-wrap: wrap
-
+    margin: auto
     .about__item
-      order: 0
-      flex-grow: 1
-
-    .about__image
       order: 1
+      flex-grow: 1
+    .about__image
+      order: 0
       flex-grow: 2
+      img
+        max-width: 70%
+        margin-top: -24px
+
+.about__breakpoint
+  display: flex
+  justify-content: center
+  margin: 10% auto 10% auto
+  img
+    width: 5%
+    height: 6%
 
 @media screen and (min-width: 720px)
   .about__container
     flex-direction: row
     width: 800px
     justify-content: space-around
+    .about__item
+        max-width: 50%
+    .about__image
+      max-width: 50%
+
 
 @media screen and (max-width: 720px)
   .about__container

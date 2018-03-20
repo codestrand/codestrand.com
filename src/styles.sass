@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat')
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900')
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display')
 
 @import './assets/sass/variables'
@@ -6,11 +6,30 @@
 
 h1, h2, h3, h4, h5, h6
   font-family: $header-font
+h1,h2
+  margin-bottom: $margin-20
+
+h3, h4, h5, h6
+  margin-bottom: $margin-10
+
+h1
+  font-size: $h1-size
+  font-weight: $h1-weight
+  color: $lime
+  line-height: $h1-line-height
+h2
+  font-size: $h2-size
+  font-weight: $h2-weight
+  color: $turquoise
+  line-height: $h2-line-height
 body
   font-family: $paragraph-font
+  font-weight: $paragraph-weight
+  line-height: $paragraph-line-height
+
 
 cs-nav-bar
   position: fixed
   top: 0
   background: white
-  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.1)
+  box-shadow: 0 3px 5px 0 rgba(0,0,0,0.1)

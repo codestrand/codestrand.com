@@ -9,6 +9,8 @@ import { AboutComponent } from './about/about.component';
 import { TeamComponent } from './team/team.component';
 import { ValuesComponent } from './values/values.component';
 import { ContactComponent } from './contact/contact.component';
+import { FoundationComponent } from './foundation/foundation.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -20,6 +22,8 @@ import { ContactComponent } from './contact/contact.component';
     TeamComponent,
     ValuesComponent,
     ContactComponent,
+    FoundationComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule

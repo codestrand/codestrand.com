@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  justify-content: center; }
+
+.homepage-logo {
+  max-width: 90%;
+  order: 0;
+  align-self: center;
+  text-align: center;
+  margin-bottom: 4%; }
+
+h2 {
+  order: 1;
+  color: #408385;
+  font-size: 48px; }
+
+@media screen and (max-width: 720px) {
+  h2 {
+    font-size: 1.1em; } }
+
+/*# sourceMappingURL=hero.component.css.map */
