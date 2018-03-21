@@ -9,6 +9,23 @@
     margin-left: auto
     margin-right: auto
     flex-direction: column
+    .contact__social_media
+      display: flex
+      justify-content: space-between
+      width: 50%
+      align-items: center
+      .contact__social_fb
+        &:hover
+          background: url("./../../assets/images/icons/facebook-hover.svg") no-repeat
+      .contact__social_lk
+        &:hover
+          background: url("./../../assets/images/icons/linked-hover.svg") no-repeat
+      .contact__social_tt
+        &:hover
+          background: url("./../../assets/images/icons/twitter-hover.svg") no-repeat
+      .contact__social_it
+        &:hover
+          background: url("./../../assets/images/icons/instagram-hover.svg") no-repeat
 
 @media screen and (min-width: $width-sm)
   .contact__container
