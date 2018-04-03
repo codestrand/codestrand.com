@@ -10,6 +10,13 @@
       display: flex
       justify-content: space-between
       align-items: center
+
+@media screen and (min-width: 720px)
+  .contact__container
+    width: 800px
+    margin: 4% auto 5% auto
+    .contact__social_media
+      width: 50%
       .contact__social_fb
         &:hover
           background: url("./../../assets/images/icons/facebook-hover.svg") no-repeat
@@ -25,13 +32,6 @@
         &:hover
           background: url("./../../assets/images/icons/instagram-hover.svg") no-repeat
 
-@media screen and (min-width: 720px)
-  .contact__container
-    width: 800px
-    margin: 4% auto 5% auto
-    .contact__social_media
-      width: 50%
-
 
 @media screen and (max-width: 720px)
   .contact__container
@@ -44,7 +44,17 @@
       width: 50%
       .contact__social_fb
         &:hover
-          display: none
+          background: none
+      .contact__social_lk
+        &:hover
+          background: none
+      .contact__social_tt
+        &:hover
+          background: none
+      .contact__social_it
+        &:hover
+          background: none
+
       img
         width: 100%
         padding-right: 40%
