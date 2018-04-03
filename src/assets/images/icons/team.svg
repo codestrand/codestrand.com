@@ -38,7 +38,7 @@
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="team">
-            <g id="Background" fill="#C5E2A1">
+            <g id="Background" fill="#A5C1A3">
                 <rect id="Rectangle-27" x="109" y="52" width="267" height="71" rx="35.5"></rect>
                 <rect id="Rectangle-27" x="0" y="0" width="267" height="71" rx="35.5"></rect>
                 <rect id="Rectangle-27" x="0" y="106" width="267" height="71" rx="35.5"></rect>
@@ -132,11 +132,11 @@
             </g>
             <g id="table" transform="translate(49.000000, 139.000000)">
                 <g id="Rectangle-19">
-                    <use fill="#A5C1A3" fill-rule="evenodd" xlink:href="#path-17"></use>
+                    <use fill="#C5E2A1" fill-rule="evenodd" xlink:href="#path-17"></use>
                     <path stroke="#39455A" stroke-width="3" d="M252.851658,17.5 L265.582281,77.5 L270.5,77.5 L270.5,17.5 L252.851658,17.5 Z"></path>
                 </g>
                 <g id="Rectangle-19" transform="translate(34.500000, 47.500000) scale(-1, 1) translate(-34.500000, -47.500000) ">
-                    <use fill="#A5C1A3" fill-rule="evenodd" xlink:href="#path-18"></use>
+                    <use fill="#C5E2A1" fill-rule="evenodd" xlink:href="#path-18"></use>
                     <path stroke="#39455A" stroke-width="3" d="M25.8516582,17.5 L38.5822806,77.5 L43.5,77.5 L43.5,17.5 L25.8516582,17.5 Z"></path>
                 </g>
                 <g id="Rectangle-18">
@@ -146,7 +146,7 @@
             </g>
             <g id="guy-laptop" transform="translate(161.000000, 99.000000)">
                 <g id="Rectangle-21">
-                    <use fill="#A5C1A3" fill-rule="evenodd" xlink:href="#path-20"></use>
+                    <use fill="#C5E2A1" fill-rule="evenodd" xlink:href="#path-20"></use>
                     <rect stroke="#39455A" stroke-width="3" x="1.5" y="1.5" width="42" height="35"></rect>
                 </g>
                 <g id="Rectangle-21">

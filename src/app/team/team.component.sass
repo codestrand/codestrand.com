@@ -6,7 +6,6 @@
 
   .team__container
     display: flex
-    margin: 4% auto 0 auto
     justify-content: space-between
     h1
       color: rgba(197,226,161,0.5)
@@ -41,6 +40,8 @@
 @media screen and (min-width: 720px)
   .team__container
     width: 800px
+    margin: 4% auto 0 auto
+
     .team__text
       padding: 10% 0 10% 0
       width: 35%
@@ -51,9 +52,13 @@
 
 @media screen and (max-width: 720px)
   .team__container
-    flex-direction: column
+    margin: 20% 10%
+    h2
+      margin-left: -22px
+    .team__image
+      display: none
     .team__text
       width: 100%
   img
-    max-width: 30%
+    max-width: 45%
 

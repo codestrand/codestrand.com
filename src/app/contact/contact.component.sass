@@ -3,7 +3,6 @@
 .contact
   display: flex
   flex-direction: column
-  margin: 8% 0 8% 0
   .contact__container
     display: flex
     margin-left: auto
@@ -12,7 +11,6 @@
     .contact__social_media
       display: flex
       justify-content: space-between
-      width: 50%
       align-items: center
       .contact__social_fb
         &:hover
@@ -30,10 +28,26 @@
           background: url("./../../assets/images/icons/instagram-hover.svg") no-repeat
 
 @media screen and (min-width: $width-sm)
+  .contact
+    margin: 8% 0 8% 0
   .contact__container
     width: 800px
+    .contact__social_media
+      width: 50%
+
 
 @media screen and (max-width: $width-sm)
+  .contact
+    margin: 0 10% 10% 10%
   .contact__container
-    text-align: center
+    text-align: left
+    display: flex
+    h2
+      margin-left: -22px
+    .contact__social_media
+      justify-content: space-between
+      width: 30%
+      img
+        width: 100%
+        padding: 0 10%
 

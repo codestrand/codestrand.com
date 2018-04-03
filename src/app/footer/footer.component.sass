@@ -10,7 +10,8 @@
     width: 40%
     margin: auto
     background: url("./../../assets/images/brand/codestrand-white.svg") no-repeat
-    background-size: 20%
+    background-size: 30%
+
 
 .footer__icons
     display: flex
@@ -28,3 +29,10 @@
         color: white
         & :hover
           color: $lime
+
+
+@media screen and (max-width: 720px)
+  .footer
+    .footer__image
+      background: url("./../../assets/images/brand/codestrand-white.svg") no-repeat left center
+      background-size: 64%
