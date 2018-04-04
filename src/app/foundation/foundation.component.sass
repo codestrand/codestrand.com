@@ -12,7 +12,6 @@
 
   .foundation__container
     display: flex
-    margin: auto
     .foundation__item
       order: 1
       flex-grow: 1
@@ -26,6 +25,7 @@
 
 @media screen and (min-width: 720px)
   .foundation__container
+    margin: auto
     flex-direction: row
     width: 800px
     justify-content: space-around
@@ -38,9 +38,11 @@
 @media screen and (max-width: 720px)
   .foundation__container
     flex-direction: column
+    margin-top: 20%
     h2
       margin-left: -22px
     .foundation__image
+      display: none
       max-width: 50%
       z-index: 2
       margin-bottom: -16px

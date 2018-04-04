@@ -8,8 +8,14 @@
     flex-direction: column
     .contact__social_media
       display: flex
-      justify-content: space-between
+      flex-flow: row
+      justify-content: start
       align-items: center
+      a
+        color: $dark-blue
+        &:hover
+          color: $turquoise
+        margin-right: .5em
 
 @media screen and (min-width: 720px)
   .contact__container
@@ -17,21 +23,8 @@
     margin: 4% auto 5% auto
     .contact__social_media
       width: 50%
-      .contact__social_fb
-        &:hover
-          background: url("./../../assets/images/icons/facebook-hover.svg") no-repeat
-          vertical-align: center
-          text-align: center
-      .contact__social_lk
-        &:hover
-          background: url("./../../assets/images/icons/linked-hover.svg") no-repeat
-      .contact__social_tt
-        &:hover
-          background: url("./../../assets/images/icons/twitter-hover.svg") no-repeat
-      .contact__social_it
-        &:hover
-          background: url("./../../assets/images/icons/instagram-hover.svg") no-repeat
-
+      a
+        font-size: 4em
 
 @media screen and (max-width: 720px)
   .contact__container
@@ -42,20 +35,5 @@
     .contact__social_media
       justify-content: space-between
       width: 80%
-      .contact__social_fb
-        &:hover
-          background: none
-      .contact__social_lk
-        &:hover
-          background: none
-      .contact__social_tt
-        &:hover
-          background: none
-      .contact__social_it
-        &:hover
-          background: none
-
-      img
-        width: 100%
-        padding-right: 40%
-
+      a
+        font-size: 3em
